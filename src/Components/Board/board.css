@@ -1,0 +1,48 @@
+.board-container {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border: 1px solid #999999
+}
+
+.next-player,
+.winner {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.step-container {
+    margin-top: 10px;
+}
+
+.li-button {
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    border: 1px solid #4f4f4f;
+    text-align: center;
+    padding: 0.15rem 0.25rem 0.15rem 0.25rem;
+    border-radius: 2px;
+    background-color: #EFEFEF;
+    cursor: context-menu;
+    user-select: none;
+}
+
+.li-button:hover {
+    background-color: #e5e5e5;
+}
+
+.li-button:active {
+    background-color: white;
+}
